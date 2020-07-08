@@ -7,8 +7,8 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 1140px;
 }
 
@@ -20,6 +20,8 @@ body {
   height: 500px;
   font-size: 1em;
   border-radius: 5px;
+
+  flex: 1 0 200px;
 }
 
 .box1{
@@ -37,4 +39,17 @@ body {
 .box4{
   background-color: #b58561;
   color:#fff;
+}
+
+
+@media screen and (max-width: 641px) {
+  .box3, .box4{
+    display:none;
+  }
+  .box1{
+    background-color: #f98cd6;
+  }
+  .box2{
+    background-color: #dc252a;
+  }
 }
