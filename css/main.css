@@ -16,9 +16,10 @@ body {
   padding: 20px;
   text-align: center;
   margin: 10px;
-  width: 100px;
+  width: 150px;
   height: 500px;
   font-size: 1em;
+  border-radius: 5px;
 }
 
 .box1{
